@@ -1,0 +1,12 @@
+{
+  "name": "xpense-web",
+  "version": "1.0.0",
+  "description": "A simple yet effective web application for tracking daily, weekly, monthly, and yearly expenses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

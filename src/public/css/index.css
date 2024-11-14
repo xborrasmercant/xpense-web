@@ -1,0 +1,96 @@
+#base-pnl {
+    width: 50%;
+    background-color: rgb(53, 53, 53);
+    border-radius: 0.5em;
+    border: 1px solid #aaaaaa;
+}
+
+#summary-pnl {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+#summary-pnl hr {
+    border: 1px solid #aaaaaa;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#summary-top-pnl {
+    display: flex;
+    justify-content: center;
+
+}
+
+#summary-top-pnl div {}
+
+#summary-top-pnl h1 {
+    font-size: 4em;
+}
+
+
+
+#summary-bot-pnl {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.summary-item h1 {
+    margin: 0;
+}
+
+.summary-item p {
+    margin: 0;
+}
+
+#expenses-pnl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    gap: 2em;
+}
+
+#expenses-pnl table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#expenses-pnl thead {}
+
+#expenses-pnl tr {
+    height: 3em;
+
+}
+
+#expenses-pnl tbody tr:nth-child(odd) {
+    background-color: #424242;
+}
+
+#expenses-pnl th {}
+
+#expenses-pnl td {}
+
+#add-expense-btn {
+    background: -webkit-linear-gradient(45deg, #6b99fe 30%, #537bff 90%);
+    border-radius: 3em;
+    border: 0;
+    color: black;
+    height: 3em;
+    width: 10em;
+    font-size: 1em;
+    cursor: pointer;
+}
